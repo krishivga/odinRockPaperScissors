@@ -1,0 +1,112 @@
+/* Setting Font */
+* {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Dotted background using repeated 'images' of radial gradient on a black outdrop */
+body {
+    background: #201E43;
+    background-image: radial-gradient(#999999 2px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+/* Aligning Hero to center of screen */
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Styling container and ensuring it stays on top of backdrop */
+.container {
+    width: 45vw;
+    height: 40vw; 
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #EEEEEE;
+}
+
+/* Flexbox for three sections of the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 25px;
+}
+
+/* Styling buttons */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 12vw;
+    height: 15vh;
+    background-color: #508C9B; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    font-size: 28px;
+    color: #EEEEEE;
+    user-select: none;
+}
+
+.button-text:hover {
+    color: #201E43;
+}
+/* Styling computer choice screen */
+.computer-choice {
+    display: flex;
+    justify-content: center;
+}
+
+.choice {
+    width: 20vw;
+    height: 15vh;
+    background-color: #134B70; 
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#choice-text {
+    font-size: 38px;
+    color: #EEEEEE;
+    user-select: none;
+}
+
+/* Styling result screen */
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.result-display {
+    width: 30vw;
+    height: 15vh;
+    background-color: #134B70;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-text {
+    font-size: 38px;
+    color: #EEEEEE;
+    user-select: none;
+}
